@@ -1,44 +1,22 @@
-
+.logoAlura {
+   
+    padding:  0 20px 0 50px;
+    background: #F3F5FC;
+}
+h1{
+    padding: 0 40px 0 0 30px;
+    font-weight: bold;
+}
 
 main{
 padding: 15px;
-background:#F3F5FC ;
-width:980px;
+background:yellowgreen ;
 
 }
 
-.logoAlura {
-    width: 980px;
-	height: 0 30px;
-    padding:  30px;
-    background: #F3F5FC;
-}
-.Rentangulo1{
-    background-color: white;
-	width: 310px;
-	height: 750px;
-	padding: 5px;
-	margin: 0 665px;
-    border-radius: 30px 30px 30px 30px;
-}
 
-.Muñeco{	
-	margin: 70px ;
-
-
-}
-
-.ningunTexto{
-
-
-}
-
-.IngreseTexto{
-  font-size: 20px;
-
-}
-.botones{
-
-    padding: 30px;
+.cuadroTexto{
+    height: 70px 100px;
+    padding:  10px;
 
 }
