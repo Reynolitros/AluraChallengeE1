@@ -1,16 +1,22 @@
-.logoAlura {
-   
-    padding:  0 20px 0 50px;
-    background: #F3F5FC;
-}
 h1{
-    padding: 0 40px 0 0 30px;
+    width: 940px;
+    margin: 5px 10px 15px 20px ;
+    padding: 0 0px 0 0 30px;
+    background: yellow;
     font-weight: bold;
 }
 
+.logoAlura {
+    width: 940px;
+    margin: 0px 70px;
+    background: none;
+}
+
+
 main{
-padding: 15px;
-background:yellowgreen ;
+    width: 940px;
+    padding: 15px;
+    background:yellowgreen ;
 
 }
 
