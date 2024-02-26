@@ -1,28 +1,60 @@
-h1{
-    width: 940px;
-    margin: 5px 10px 15px 20px ;
-    padding: 0 0px 0 0 30px;
-    background: yellow;
-    font-weight: bold;
-}
 
 .logoAlura {
-    width: 940px;
-    margin: 0px 70px;
-    background: none;
+       
+    margin: 10px 80px;
+    background: gray;
 }
 
+header{
+    width: 1020px;
+    margin: auto;
+    
 
+
+}
 main{
-    width: 940px;
-    padding: 15px;
+    width: 1020px;
+    margin: auto;
+    
     background:yellowgreen ;
 
 }
-
-
-.cuadroTexto{
-    height: 70px 100px;
-    padding:  10px;
+#cuadroMensaje{
+    
+    display: relative;
+    width: 400px;
+    height: 750px;
+    background: green;
+    margin:-377px 560px;
+    border: none;
+    padding: 20px;
 
 }
+
+#texto-incriptado{
+    display: relative;
+    margin:0px  0px 0px;
+    border: none;
+    background: blue;
+    width: 500px;
+    height: 350px;
+    padding:  12px;
+    
+    }
+  
+.muñeco{
+    display: relative;
+    margin: -135px 570px;
+
+}
+.texto-encontrado{
+    margin:150px 750px;
+
+
+}
+  
+.btn{
+    margin: -65px 100px;
+
+}
+
