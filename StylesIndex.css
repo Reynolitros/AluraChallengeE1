@@ -1,44 +1,48 @@
 
 .logoAlura {
-       
-    margin: 10px 80px;
-    background: gray;
+    width: 1020;
+    margin: 20px;
+    background:#F3F5FC ;
+    
 }
 
 header{
+    display: relative;
     width: 1020px;
-    margin: auto;
+    margin: 20px 30px;
+    background:#F3F5FC ;
+   
+
     
 
 
 }
 main{
-    width: 1020px;
+    width: 100%;
     margin: auto;
-    
-    background:yellowgreen ;
+    background:#F3F5FC ;
 
 }
 #cuadroMensaje{
-    
-    display: relative;
     width: 400px;
-    height: 750px;
-    background: green;
-    margin:-377px 560px;
+    height: 700px;
+    background: #FFFFFF;
+    margin:-368px 560px;
     border: none;
-    padding: 20px;
+    padding: none;
+    border-radius: 25px;
 
 }
 
 #texto-incriptado{
-    display: relative;
-    margin:0px  0px 0px;
-    border: none;
-    background: blue;
+  
+    margin:56px  12px 0px;
+    background:#F3F5FC ;
     width: 500px;
     height: 350px;
-    padding:  12px;
+    padding:  none;
+    border-radius: 10px;
+    border: 2px solid black;
     
     }
   
