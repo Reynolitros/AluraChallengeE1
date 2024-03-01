@@ -1,64 +1,112 @@
 
-.logoAlura {
-    width: 1020;
-    margin: 20px;
+*{
     background:#F3F5FC ;
-    
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
 }
 
-header{
-    display: relative;
-    width: 1020px;
-    margin: 20px 30px;
-    background:#F3F5FC ;
-   
+.logoAlura{
 
-    
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 15;
 
 
 }
 main{
-    width: 100%;
-    margin: auto;
-    background:#F3F5FC ;
+
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
 
 }
-#cuadroMensaje{
-    width: 400px;
-    height: 700px;
-    background: #FFFFFF;
-    margin:-368px 560px;
-    border: none;
-    padding: none;
-    border-radius: 25px;
+.text-area{
+
+    border:none;
+    color:#0A3871;
+    margin-top: 90PX;
+    text-transform: lowercase;
+    outline:none;
 
 }
-
-#texto-incriptado{
-  
-    margin:56px  12px 0px;
-    background:#F3F5FC ;
-    width: 500px;
-    height: 350px;
-    padding:  none;
-    border-radius: 10px;
-    border: 2px solid black;
+::placeholder{
     
-    }
-  
-.muñeco{
-    display: relative;
-    margin: -135px 570px;
+    color:#0A3871;
 
 }
-.texto-encontrado{
-    margin:150px 750px;
+.mensaje{
+
+    background: #F3F5FC;
+    background-image: url(imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    border:none;
+    border-radius: 24px;
+    color:#0A3871;
+    margin-left: 98px;
+    padding-left: 20px;
+    position: fixed;
+    
+}
+.mensaje:focus{
+
+    outline: none;
+
+}
+
+.botones{
+
+    display: flex;
+    margin-top: 18px;
+
+}
+
+.btn-encriptar{
+    background:  #0A3871;
+    border: 1px solid #0A3871 ;
+    border-radius: 24px;
+    color:white;
+    cursor:pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+ 
+
+}
+
+.btn-desencriptar{
+
+    background: rgb(199, 197, 197);
+    border: 1px solid #0A3871 ;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor:pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
 
 
 }
-  
-.btn{
-    margin: -65px 100px;
+
+.copiar{
+
+    background: rgb(199, 197, 197);
+    border: 1px solid #0A3871 ;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor:pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    width: 336px;
+    position: absolute;
 
 }
+.informacion{
 
+color:#495057;
+font-size: 18px;
+margin-left: 29px;
+
+}
